@@ -1,0 +1,18 @@
+@charset 'UTF-8'; 
+@import 'vendors/node_modules/bootstrap/scss/bootstrap.scss';
+
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+@import 'base/reset';
+@import 'base/typography'; 
+
+@import 'components/buttons';
+@import 'layout/footer';
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+
+@import 'pages/contact';
+@import 'pages/home';
+
