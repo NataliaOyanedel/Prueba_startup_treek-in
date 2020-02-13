@@ -1,5 +1,4 @@
-/* Grid */
-/* Container */
+
 @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -22,7 +21,7 @@
     }
   }
   
-  /* Row */
+  
   .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
