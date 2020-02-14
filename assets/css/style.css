@@ -10344,58 +10344,63 @@ body {
     color: #221d23;
     font-size: 14px;
   }
-  .body__div__title {
+  .body__title {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
   }
-  .body__div__parrafo {
+  .body__parrafo {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
   }
-  .body .seccion__precios {
+
+  .seccion__precios {
     width: 100%;
     height: auto;
     background-image: url(../img/bg-price.svg);
     background-repeat: no-repeat;
   }
-  .body .precios__container {
+
+  .precios__container {
     padding-top: 15%;
   }
-  .body .precios__container__title {
+
+  .precios__container__title {
     text-align: center;
     font-size: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: white;
   }
-  .body .precios__color {
+
+  .precios__color {
     background-color: #333745;
     display: grid;
   }
-  .body .card {
-    width: 355px;
+
+  .card {
+    width: 320px;
     margin: 20px;
     background-color: #fff;
     font-family: "Raleway", sans-serif;
     color: #221d23;
     padding: 30px;
   }
-  .body .card__title h2 {
-    font-size: 45px;
+  .card__title h2 {
+    font-size: 40px;
     font-weight: 700;
   }
-  .body .card__title h3 {
+  .card__title h3 {
     font-size: 35px;
     font-weight: 400;
     color: #333745;
   }
-  .body .card__title .card__bbutton {
+  .card .card__bbutton {
     padding: 5%;
     margin: auto;
   }
-  .body .card__title .card__button {
+  .card .card__button {
     background-color: #2ab7ca;
     color: #fff;
     font-family: "Raleway", sans-serif;
@@ -10404,94 +10409,100 @@ body {
     border: none;
     height: 50px;
   }
-  .body .card__title .card__text {
+  .card .card__text {
     border-bottom: 1px solid #8f9199;
     border-top: 1px solid #8f9199;
     height: 200px;
     font-size: 16px;
-    line-height: 35px;
-    padding-top: 25px;
+    line-height: 30px;
   }
 }
 @media (min-width: 993px) and (max-width: 992px) {
-  .body .grid__container {
+  .grid__container {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 5em;
     justify-content: center;
   }
-  .body .body__container__title {
+
+  .body__container__title {
     text-align: center;
     font-size: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
   }
-  .body .body {
+
+  .body {
     text-align: center;
     margin: 0 0 51px 0;
   }
-  .body .body__div {
+  .body__div {
     width: 100%;
     background-color: #fff;
     color: #221d23;
     font-size: 14px;
   }
-  .body .body__title {
+  .body__title {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
   }
-  .body .body__parrafo {
+  .body__parrafo {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
   }
-  .body .seccion__precios {
+
+  .seccion__precios {
     width: 100%;
-    height: auto;
+    height: 1000px;
     background-image: url(../img/bg-price.svg);
     background-repeat: no-repeat;
     background-size: contain;
     color: #fff;
   }
-  .body .precios__container {
+
+  .precios__container {
     padding-top: 15%;
   }
-  .body .precios__container__title {
+
+  .precios__container__title {
     text-align: center;
     font-size: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
     color: white;
   }
-  .body .precios__color {
+
+  .precios__color {
     background-color: #333745;
     padding-bottom: 5%;
   }
-  .body .card {
+
+  .card {
     width: 20em;
     background-color: #fff;
     font-family: "Raleway", sans-serif;
     color: #221d23;
     padding-bottom: 10%;
   }
-  .body .card__title {
+  .card__title {
     margin-top: 5%;
     padding-left: 5%;
     padding-top: 5%;
   }
-  .body .card__title h2 {
+  .card__title h2 {
     font-weight: 700;
   }
-  .body .card__title h3 {
+  .card__title h3 {
     font-size: 35px;
     color: #333745;
   }
-  .body .card .card__bbutton {
+  .card .card__bbutton {
     padding: 16px;
     display: grid;
   }
-  .body .card .card__button {
+  .card .card__button {
     margin: auto;
     background-color: #2ab7ca;
     color: #fff;
@@ -10501,7 +10512,7 @@ body {
     border: none;
     height: 50px;
   }
-  .body .card .card__text {
+  .card .card__text {
     border-bottom: 1px solid #8f9199;
     border-top: 1px solid #8f9199;
     margin: auto;
@@ -10511,41 +10522,41 @@ body {
     height: 200px;
   }
 }
-@media (min-width: 993px) and (max-width: 768px) {
-  .body .grid__container {
+@media (min-width: 993px) and (max-width: 992px) and (max-width: 768px) {
+  .card .grid__container {
     display: grid;
     grid-template-columns: auto;
     grid-gap: 5em;
     justify-content: center;
   }
-  .body .body__container__title {
+  .card .body__container__title {
     text-align: center;
     font-size: 40px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
   }
-  .body .body {
+  .card .body__container .body {
     margin: 0 0 51px 0;
   }
-  .body .body__div {
+  .card .body__container .body__div {
     width: 100%;
     background-color: #fff;
     color: #221d23;
     font-size: 14px;
   }
-  .body .body__title {
+  .card .body__container .body__title {
     font-size: 20px;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
   }
-  .body .body__parrafo {
+  .card .body__container .body__parrafo {
     font-size: 14px;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
     text-align: left;
     padding: 5%;
   }
-  .body .precios__color {
+  .card .body__container .precios__color {
     background-color: #333745;
   }
 }

@@ -27,12 +27,11 @@
     font-size: $small;
 }
 
-
-
 &__title {
     font-size: $large;
     font-family: $raleway;
     font-weight: $bold;
+    
 
 }
 
@@ -46,7 +45,7 @@
 
 .seccion__precios {
         width: 100%;
-        height: 1000px;
+        height: auto;
         background-image: url(../img/bg-price.svg);
         background-repeat: no-repeat;
     }
