@@ -1,314 +1,287 @@
 @media (min-width: 993px) {
     .grid__container {
-        display: grid;
-        grid-template-columns: auto auto;
-        grid-gap: 5em;
-        justify-content: center;
+      display: grid;
+      grid-template-columns: auto auto ;
+      grid-gap: 5em;
+      justify-content: center;
     }
-
-    .body__container {
-
-        &__title {
-            text-align: center;
-            font-size: $xxx-large;
-            font-family: $raleway;
-            font-weight: $bold;
-        }
-    }
-
-.body {
-    margin: 0 0 51px 0;
-
-&__div{
-    width: 100%;
-    margin: 5%;
-    background-color: $white;
-    color: $raising-black;
-    font-size: $small;
-}
-
-&__title {
-    font-size: $large;
-    font-family: $raleway;
-    font-weight: $bold;
-    
-
-}
-
-&__parrafo { 
-    font-size: $small;
-    font-family: $open;
-    font-weight: $regular;
-}
-}
-
-
-.seccion__precios {
-        width: 100%;
-        height: auto;
-        background-image: url(../img/bg-price.svg);
-        background-repeat: no-repeat;
-    }
-
-.precios__container {
- padding-top: 15%;
-
-}
- .precios__container__title {
-     text-align: center;
-     font-size: $xxx-large;
-     font-family: $raleway;
-     font-weight: $bold;
-     color: white
- }
-
   
-.precios__color {
-    background-color: $onyx;
-    display: grid;
-}
-
-.card {
-    width: 320px;
-    margin: 20px;
-    background-color: $white;
-    font-family: $raleway;
-    color: $raising-black;
-    padding: 30px; 
-
-    &__title {
- h2 {
-     font-size: $xxx-large;
-     font-weight: $bold;
- }
-
- h3 {
-     font-size: $xx-large;
-     font-weight: $regular;
-     color: $onyx;
- }
-    }
-
-
-    .card__bbutton {
-        padding: 5%;
-        margin: auto;
-    }
-
-
-    .card__button {
-        background-color: $ball-blue;
-        color: $white;
-        font-family: $raleway;
-        font-weight: $bold;
+    .body__container{
+  
+      &__title{
+      text-align: center;
+      font-size: $xxx-large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+  }
+  
+    .body{
+      margin: 0 0 51px 0;
+  
+      &__div{
         width: 100%;
-        border: none;
-        height: 50px;
-}
-
-.card__text {
-    border-bottom:  1px solid $spanish-gray;
-    border-top: 1px solid $spanish-gray;
-    height: 200px;
-    font-size: $medium;
-    line-height: 30px;
-}
-
-}
-
-
-
-@media (max-width: 992px) {
-
-.grid__container {
-    display: grid;
-    grid-template-columns:auto;
-    grid-gap: 5em;
-    justify-content: center;
-}
-
-.body__container {
-
+        margin: 5%;
+        background-color: $white;
+        color: $raising-black;
+        font-size: $small;
+      }
+  
+      
+      &__title{
+      font-size: $large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+  
+     &__parrafo{
+       font-size: $small;
+       font-family: $open;
+       font-weight: $regular;
+     }
+    }
+  
+    .seccion__precios{
+      width: 100%;
+      height: 1000px;
+      background-image: url("../img/bg-price.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: $white;
+    }
+  
+    .precios__container{
+      padding-top: 15%;
+  
+      &__title{
+      text-align: center;
+      font-size: $xxx-large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+    }
+  
+    .precios__color{
+      background-color: $onyx;
+      display: grid;
+    }
+  
+    .card{
+      width: 320px;
+      margin: 20px;
+      background-color: $white;
+      font-family: $raleway;
+      color: $raising-black;
+      padding: 30px;
+  
     &__title{
-        text-align: center;
-        font-size: $xxx-large;
-        font-family: $raleway;
+  
+      h2{
+        font-size: $xxxx-large;
         font-weight: $bold;
-    }
-}
-
-.body {
-    text-align: center;
-    margin: 0 0 51px 0;
-
-&__div {
-    width: 100%;
-    background-color: $white;
-    color: $raising-black;
-    font-size: $small;
-}
-
-
-
-&__title {
-    font-size: $large;
-    font-family: $raleway;
-    font-weight: $bold;
-}
-
-&__parrafo {
-    font-size: $small;
-    font-family: $open;
-    font-weight: $regular;
-}
-}
-
-.seccion__precios {
-    width: 100%;
-    height: 1000px;
-    background-image: url(../img/bg-price.svg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    color: $white;
-}
-
-.precios__container {
-    padding-top: 15%;
-   
-   }
-    .precios__container__title {
-        text-align: center;
-        font-size: $xxx-large;
-        font-family: $raleway;
-        font-weight: $bold;
-        color: white;
-    }
-   
-   
-   .precios__color {
-       background-color: $onyx;
-       padding-bottom: 5%;
-   }
-   
-   .card {
-       width: 20em;
-       background-color: $white;
-       font-family: $raleway;
-       color: $raising-black;
-       padding-bottom: 10%; 
-   
-       &__title {
-           margin-top: 5%;
-           padding-left: 5%;
-           padding-top: 5%;
-    
-    
-        h2 {
-    
-        font-weight: $bold;
-    }
-   
-    h3 {
+      }
+  
+      h3{
         font-size: $xx-large;
+        font-weight: $regular;
         color: $onyx;
+      }
     }
-       }
-   
-       .card__bbutton {
-           padding: 16px;
-           display: grid;
-       }
-       .card__button {
-           margin: auto;
-           background-color: $ball-blue;
-           color: $white;
-           font-family: $raleway;
-           font-weight: $bold;
-           width: 100%;
-           border: none;
-           height: 50px;
-   }
-   
-   .card__text {
-       border-bottom:  1px solid #8f9199;
-       border-top: 1px solid #8f9199;
-       margin: auto;
-       padding: auto;
-       width: 90%;
-       font-size: $x-small;
-       height: 200px;
-   }
-   
-
- 
-   @media (max-width:768px) {
-
+  
+    &__bbutton{
+      padding: 5%;
+      margin: auto;
+    }
+  
+    &__button{
+      background-color: $ball-blue;
+      color: $white;
+      font-family: $raleway;
+      font-weight: $bold;
+      width: 100%;
+      border: none;
+      height: 50px;
+      }
+  
+    &__text{
+      border-bottom: 1px solid $spanish-gray;
+      border-top: 1px solid $spanish-gray;
+      height: 200px;
+      font-size: $medium;
+      line-height:30px;
+      }
+    }
+  }
+  
+  @media (max-width: 992px) {
     .grid__container {
-        display: grid;
-        grid-template-columns:auto;
-        grid-gap: 5em;
-        justify-content: center;
-    }
-   
-    .body__container { 
-      
-      
-        &__title {
-            text-align: center;
-            font-size: $xxx-large;
-            font-family: $raleway;
-font-weight: $bold;
-
-        }
-    
-
-.body { 
-    margin: 0 0 51px 0;
-    
-
-&__div {
-    width: 100%;
-    background-color: $white;
-    color: $raising-black;
-    font-size: $small;
-}
-
-
-&__title {
-    font-size: $large;
-    font-family: $raleway;
-    font-weight: $bold;
-}
-
-&__parrafo {
-    font-size: $small;
-    font-family: $open;
-    font-weight: $regular;
-    text-align: left;
-    padding: 5%;
-}
-}
-
-    .precios__color {
-        background-color: $onyx;
+      display: grid;
+      grid-template-columns: auto ;
+      grid-gap: 5em;
+      justify-content: center;
   
     }
-   }
-}
-   }
-}
-}
-
-
-
-   
-
-
-
-
-
-
-
-
-
+  
+    .body__container{
+  
+      &__title{
+      text-align: center;
+      font-size: $xxx-large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+    }
+  
+    .body{
+      text-align: center;
+      margin: 0 0 51px 0;
+  
+      &__div{
+        width: 100%;
+        background-color: $white;
+        color: $raising-black;
+        font-size: $small;
+      }
+      
+      svg{
+      animation: opacidad 4s ease-in-out 0s infinite;
+      }
+  
+      &__title{
+      font-size: $large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+  
+     &__parrafo{
+       font-size: $small;
+       font-family: $open;
+       font-weight: $regular;
+     }
+    }
+  
+    .seccion__precios{
+      width: 100%;
+      min-height: 100%;
+      background-image: url("../img/bg-price.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      color: $white;
+    }
+  
+    .precios__container{
+      padding-top: 15%;
+  
+      &__title{
+      text-align: center;
+      font-size: $xxx-large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+    }
+  
+    .precios__color{
+      background-color: $onyx;
+      padding-bottom: 5%;
+    }
+  
+    .card{
+      width: 20em;
+      background-color: $white;
+      font-family: $raleway;
+      color: $raising-black;
+      padding-bottom: 10%;
+  
+    &__title{
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-top: 5%;
+  
+      h2{
+        font-weight: $bold;
+      }
+      h3{
+        color: $onyx;
+        font-size: $large;
+      }
+    }
+  
+    &__bbutton{
+      padding: 16px;
+      display: grid;
+    }
+    &__button{
+      background-color: $ball-blue;
+      color: $white;
+      font-family: $raleway;
+      font-weight: $bold;
+      width: 100%;
+      border: none;
+      height: 50px;
+      }
+  
+    &__text{
+      border-bottom: 1px solid #8f9199;
+      border-top: 1px solid #8f9199;
+      margin: auto;
+      padding: auto;
+      width: 90%;
+      font-size: $x-small;
+      line-height:30px;
+      height: 200px;
+      }
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .grid__container {
+      display: grid;
+      grid-template-columns: auto ;
+      grid-gap: 5em;
+      justify-content: center;
+  
+    }
+  
+    .body__container{
+  
+      &__title{
+      text-align: center;
+      font-size: $xxx-large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+    }
+  
+    .body{
+      margin: 0 0 51px 0;
+  
+      &__div{
+        width: 100%;
+        background-color: $white;
+        color: $raising-black;
+        font-size: $small;
+      }
+  
+     
+  
+      &__title{
+      font-size: $large;
+      font-family: $raleway;
+      font-weight: $bold;
+     }
+  
+     &__parrafo{
+       font-size: $small;
+       font-family: $open;
+       font-weight: $regular;
+       text-align: left;
+       padding: 5%;
+     }
+    }
+  
+    .precios__color{
+      background-color: $onyx;
+    }
+  
+  }
 
