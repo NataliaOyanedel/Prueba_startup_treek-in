@@ -77,8 +77,10 @@
     &__title{
   
       h2{
-        font-size: $xxxx-large;
+        font-size: $xxx-large;
         font-weight: $bold;
+      
+        
       }
   
       h3{
@@ -101,6 +103,7 @@
       width: 100%;
       border: none;
       height: 50px;
+      
       }
   
     &__text{
